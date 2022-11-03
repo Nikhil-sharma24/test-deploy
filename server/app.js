@@ -17,9 +17,11 @@ const port = process.env.PORT || 5000;
 
 const cors = require("cors");
 const corsOptions  = {
-    "origin":"https://client-5a24.onrender.com",
+    "origin":"*",
     "methods": "GET,HEAD,PUT,PATCH,POST",
 }
+
+app.use(express.static('build'));
 app.use(cors(corsOptions));
 // parsing the request body
 app.use(express.json());

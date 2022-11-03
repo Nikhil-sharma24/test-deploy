@@ -1,5 +1,5 @@
 import axios from  "axios"
-const BASE_URL = "https://api-s7g5.onrender.com"
+const BASE_URL = ""
 
 const url = {
     LOGIN : "/user/login",
