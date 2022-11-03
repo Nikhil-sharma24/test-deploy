@@ -1,5 +1,5 @@
 import axios from  "axios"
-const BASE_URL = "http://localhost:5000"
+const BASE_URL = "https://api-s7g5.onrender.com"
 
 const url = {
     LOGIN : "/user/login",
